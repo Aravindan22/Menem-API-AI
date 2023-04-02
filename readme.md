@@ -38,4 +38,4 @@ Get this token from openai
 
 ## Documentation
 
-To see the API docs, you can run the application and visiti /docs path
+To see the API docs, you can run the application and visit /docs path
