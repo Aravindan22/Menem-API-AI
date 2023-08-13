@@ -4,9 +4,9 @@ import openai,os,json
 from dotenv import load_dotenv
 load_dotenv()
 
-from openAI import routes
+from openAI import routes as open_ai_route
 app = FastAPI()
-app.include_router(routes.router, prefix="/openai")
+app.include_router(open_ai_route.router, prefix="/openai")
 
 
 
